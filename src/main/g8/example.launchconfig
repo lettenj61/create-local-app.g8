@@ -9,4 +9,4 @@
   cross-versioned: binary
 
 [repositories]
-  test: file:/$${user.home}/.ivy2/create-local-app
+  local-app: file:/$${user.home}/.ivy2/create-local-app
