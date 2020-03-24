@@ -1,0 +1,12 @@
+[scala]
+  version: $scalaVersion$
+
+[app]
+  org: $organization$
+  name: $name$
+  version: 0.1.0-SNAPSHOT
+  class: $organization$.Main
+  cross-versioned: binary
+
+[repositories]
+  test: file:/$${user.home}/.ivy2/create-local-app
